@@ -65,9 +65,31 @@ Refere-se aos recursos oferecidos pela aplicação.
 
 ### 3.2 UX
 > Estudo da experiência do usuário como um todo. A partir de  informações, descobrindo as dores e necessidades do cliente / usuário. Onde é criado um sitemap ou wireframe. Criando soluções necessárias para o problema
+>
+### 3.3 Diferença entre os dois
+> Às vezes, as pessoas confundem os dois, mas a UI é, na verdade, um subconjunto especializado em UX. De acordo com o embaixador e designer da Figma Hugo Raymond, uma UI envolvente estabelece a base para uma experiência de usuário positiva com um produto digital ou site. “O design eficaz da interface do usuário combina facilidade de uso e design interativo para criar uma conexão emocional entre usuários e produtos”, explica ele
 
-## 4. Feedback do Usuário
+### 3.4 Pontos importantes do UI design
 
+- **Layout de página:**
+
+Idealmente, a organização de uma página da web ou de uma tela de aplicativo móvel deve parecer intuitiva para os usuários. Mas, para organizá-la dessa forma, os UI designers precisam tomar decisões bem pensadas, desde a posição do título até a quantidade de espaço em branco.
+
+- **Esquema de núcleos e seleção de fontes:**
+  
+Os designers de UI escolhem cuidadosamente os núcleos e fontes em uma interface de produto digital para garantir a consistência, a acessibilidade e o alinhamento com a marca.
+
+- **Elementos interativos:**
+
+  Do design de botões a menus suspensos, os UI designers estilizaram como telas de produtos digitais para tornar os fluxos de usuários mais intuitivos.
+
+- **Fidelidade de esqueleto e protótipo**
+ 
+  Os designers de UX geralmente criam esqueletos e protótipos básicos. UI designers podem transformá-los em mockups de produtos de alta qualidade, funcionais e interativos
+
+  ---
+  
+### 4 Feedback do Usuário
 O sistema deve sempre responder às ações do usuário.
 
 * Mensagens de sucesso
