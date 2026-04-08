@@ -137,7 +137,27 @@ Organização dos elementos para guiar o usuário.
 * Espaçamento melhora leitura
 
  O olhar do usuário deve ser guiado naturalmente
- 
+
+---
+
+### 5 Psiocologia das cores
+
+A psicologia das cores é um campo de estudo que se concentra em como
+as cores afetam o comportamento humano e as emoções. As cores têm o poder
+de transmitir diferentes mensagens e despertar diferentes sensações nas
+pessoas.
+
+*Exemplos:*
+
+🔴 Vermelho → urgência, atenção
+
+🔵 Azul → confiança, segurança
+
+🟢 Verde → saúde, equilíbrio
+
+🟡 Amarelo → energia, atenção
+
+
 ----
 
 🦉 *Este material faz parte do projeto Arthemis, com foco em aprendizado colaborativo para alunos do Senac.*
