@@ -8,18 +8,20 @@ layout: default
 
 1. [O que é Front-end?](#1-front-end)
 2. [HTML](#2-html-hypertext-markup-language)
-- [O que é?](#2-html-hypertext-markup-language)
-- [Tags Estruturais](#21-tags-estruturais)
-  - [Doctype](#211-doctype)
-  - [Title](#212-title)
-  - [Body](#213-body)
-  - [Organizando](#214-organizando-o-código)
-- [Tags de Texto](#22-tags-de-texto)
-  - [Cabeçalho](#221-cabeçalho)
-  - [Itálico](#222-itálico)
-  - [Negrito](#223-negrito)
-  - [Sublinhado](#224-sublinhado)
-  - [Tachado](#225-tachado)
+- 2.[O que é?](#2-html-hypertext-markup-language)
+- 2.1 [Tags Estruturais](#21-tags-estruturais)
+  - 2.1.1 [Doctype](#211-doctype)
+  - 2.1.2 [Title](#212-title)
+  - 2.1.3 [Body](#213-body)
+  - 2.1.4 [Organizando](#214-organizando-o-código)
+- 2.2 [Tags de Texto](#22-tags-de-texto)
+  - 2.2.1 [Cabeçalho](#221-cabeçalho)
+  - 2.2.2 [Itálico](#222-itálico)
+  - 2.2.3 [Negrito](#223-negrito)
+  - 2.2.4 [Sublinhado](#224-sublinhado)
+  - 2.2.5 [Tachado](#225-tachado)
+
+---
 
 # 1. Front-end
 
@@ -37,8 +39,12 @@ O desenvolvimento Front-end na web é baseado principalmente em três tecnologia
 | CSS | Define o estilo e aparência |
 | JavaScript | Adiciona interatividade e comportamento |
 
+---
+
 # 2. HTML (HyperText Markup Language)
 > O HyperText Markup Language é uma linguagem de marcação para estruturar um site utilizando as tags, que são lidas pelo navegador para visualizar o site. Essas tags marcam a função que o navegador precisa rodar para mostrar o site.
+
+---
 
 ## 2.1 Tags Estruturais
 ### 2.1.1 Doctype
@@ -55,6 +61,8 @@ também ser maiúscula, é recomendado escolher entre maiúsculo ou minúsculo p
 
 ### 2.1.4 Organizando o código 
 Há uma sequência a ser seguida para fazer o html funcionar: “<!doctype html> -> <html> -> <body> (quaisquer tags que queira adicionar) -> </body> -> </html>” O doctype especifica o formato do texto, o primeiro html o que será utilizado para o site, body o corpo visível do texto, o fechamento do body e o fim do html.
+
+---
 
 ## 2.2. TAGS DE TEXTO
 Veremos agora um breve guia do uso dos modificadores de texto (itálico, negrito, sublinhado, tachado), relacionando suas tags com seu significado e uso na língua portuguesa para melhorar a absorção do seu significado e uso na produção de um código em html.

@@ -9,55 +9,61 @@ layout: default
 2. [Design de Interação](#2-design-de-interação)
 - 2.1 [Pilares](#21-pilares-do-design-de-interação)
   - 2.1.1 [Estética](#211-estética)
-  - 2.1.2. [Legibilidade](#212-legibilidade)
-  - 2.1.3. [Usabilidade](#213-usabilidade)
-  - 2.1.4. [Funcionalidade](#214-funcionalidade)
+  - 2.1.2 [Legibilidade](#212-legibilidade)
+  - 2.1.3 [Usabilidade](#213-usabilidade)
+  - 2.1.4 [Funcionalidade](#214-funcionalidade)
 3. [UI & UX](#3-ui--ux)
-. [Feedback do Usuario](#3-feedback-do-usuário)
-  - 3.1 [Consistência](#31-consistência)
-  - 3.2 [Acessibilidade](#32-acessibilidade)
-  - 3.3 [Tempo de resposta](#33-tempo-de-resposta)
-  - 3.4 [Prevenção de erros](#34-prevenção-de-erros)
-  - 3.5 [Hierarquia visual](#35-hierarquia-visual)
+4. [Feedback do Usuario](#4-feedback-do-usuário)
+  - 4.1 [Consistência](#41-consistência)
+  - 4.2 [Acessibilidade](#42-acessibilidade)
+  - 4.3 [Tempo de resposta](#43-tempo-de-resposta)
+  - 4.4 [Prevenção de erros](#44-prevenção-de-erros)
+  - 4.5 [Hierarquia visual](#45-hierarquia-visual)
+5. [Psicologia das cores](#5-psiocologia-das-cores)
 
-## 1. Design
+---
+
+## 1. Design 
 > O **Design** envolve o planejamento e a organização de uma aplicação como um todo: como ela será apresentada ao usuário, quais funcionalidades terá e como essas funcionalidades serão utilizadas.
 
 Ele não se limita apenas à aparência visual, mas também à forma como o sistema funciona e se comunica com o usuário.
+
+---
 
 ## 2. Design de Interação
 O **Design de Interação** é uma área do Design focada na forma como o usuário interage com um sistema. Seu principal objetivo é proporcionar a melhor experiência possível durante o uso de uma aplicação, independentemente da plataforma.
 
 O profissional responsável por essa área busca garantir que a interface seja: intuitiva, eficiente, agradável de usar.
 
-## 2.1 Pilares do Design de Interação
+### 2.1 Pilares do Design de Interação
 Para que o Design de Interação seja eficaz, alguns pilares fundamentais devem ser considerados:
 
-### 2.1.1. Estética
+#### 2.1.1. Estética
 Refere-se à aparência visual da interface (*look and feel*).
 
 * Impacta diretamente a primeira impressão do usuário
 * Influencia o conforto durante o uso
 
-### 2.1.2. Legibilidade
+#### 2.1.2. Legibilidade
 Diz respeito à facilidade de compreensão das informações apresentadas.
 
 * Uso adequado de textos, cores, contrastes e tipografia
 * Clareza na comunicação visual
 
-### 2.1.3. Usabilidade
+#### 2.1.3. Usabilidade
 Relaciona-se à facilidade de uso da interface.
 
 * Interface intuitiva
 * Navegação simples
 * Redução de esforço do usuário
 
-### 2.1.4. Funcionalidade
+#### 2.1.4. Funcionalidade
 Refere-se aos recursos oferecidos pela aplicação.
 
 * Deve atender às necessidades do usuário
 * Uma interface bonita sem funcionalidade perde seu propósito
 
+---
 
 ## 3. UI & UX
 ### 3.1 UI 
@@ -65,7 +71,7 @@ Refere-se aos recursos oferecidos pela aplicação.
 
 ### 3.2 UX
 > Estudo da experiência do usuário como um todo. A partir de  informações, descobrindo as dores e necessidades do cliente / usuário. Onde é criado um sitemap ou wireframe. Criando soluções necessárias para o problema
->
+
 ### 3.3 Diferença entre os dois
 > Às vezes, as pessoas confundem os dois, mas a UI é, na verdade, um subconjunto especializado em UX. De acordo com o embaixador e designer da Figma Hugo Raymond, uma UI envolvente estabelece a base para uma experiência de usuário positiva com um produto digital ou site. “O design eficaz da interface do usuário combina facilidade de uso e design interativo para criar uma conexão emocional entre usuários e produtos”, explica ele
 
@@ -87,9 +93,9 @@ Os designers de UI escolhem cuidadosamente os núcleos e fontes em uma interface
  
   Os designers de UX geralmente criam esqueletos e protótipos básicos. UI designers podem transformá-los em mockups de produtos de alta qualidade, funcionais e interativos
 
-  ---
-  
-### 4 Feedback do Usuário
+---
+
+## 4. Feedback do Usuário
 O sistema deve sempre responder às ações do usuário.
 
 * Mensagens de sucesso
@@ -140,7 +146,7 @@ Organização dos elementos para guiar o usuário.
 
 ---
 
-### 5 Psiocologia das cores
+### 5. Psiocologia das cores
 
 A psicologia das cores é um campo de estudo que se concentra em como
 as cores afetam o comportamento humano e as emoções. As cores têm o poder
@@ -156,7 +162,6 @@ pessoas.
 🟢 Verde → saúde, equilíbrio
 
 🟡 Amarelo → energia, atenção
-
 
 ----
 
