@@ -9,23 +9,29 @@ layout: default
 1. [O que é um projeto?](#1-o-que-é-um-projeto)
 2. [Gerenciamento de projetos](#2-gerenciamento-de-projetos)
 3. [PMBOK](#3-pmbok)
-- [Importância](#31-importância)
+- 3.1 [Importância](#31-importância)
 4. [Iniciação](#4-project-charter)
-- [Project Charter](#41-objetivos)
-- [Stakeholders](#42-elementos)
+- 4.1 [Project Charter](#41-project-charter)
+- 4.2 [Stakeholders](#42-stakeholders)
 5. [Planejamento](#5-planejamento)
-- [Escopo](#51-gerenciamento-de-escopo)
-- [EAP](#52-estrutura-analítica-do-projeto)
-- [Cronograma](#53-gerenciamento-de-cronograma)
-- [Custos](#54-gerenciamento-de-custos)
-- [Riscos](#55-gerenciamento-de-riscos)
+- 5.1 [Escopo](#51-gerenciamento-de-escopo)
+- 5.2 [EAP](#52-estrutura-analítica-do-projeto)
+- 5.3 [Cronograma](#53-gerenciamento-de-cronograma)
+- 5.4 [Custos](#54-gerenciamento-de-custos)
+- 5.5 [Riscos](#55-gerenciamento-de-riscos)
+
+---
 
 ## 1. O que é um projeto?   
 
 > Projeto é um empreendimento único no qual recursos humanos, materiais e financeiros são organizados de forma a tratar um escopo único de trabalho a partir de uma dada especificação, com restrições de custo e de tempo, para atingir uma mudança benéfica definida por meio de objetivos quantitativos e qualitativos. **(Turner e Müller)**
 
+---
+
 ## 2. Gerenciamento de projetos
 O gerenciamento de projetos é a aplicação de conhecimentos, habilidades, ferramentas e técnicas às atividades do projeto com o propósito de atender aos seus requisitos e garantir o sucesso do projeto como um todo.
+
+---
 
 ## 3. PMBOK
 É um conjunto de práticas na gestão de projetos organizado pelo Project Management Institute (PMI) e é considerado a base do gerenciamento de projetos. O gerenciamento de projetos pelo PMBOK é dividido em cinco grupos de processos:
@@ -38,6 +44,8 @@ O gerenciamento de projetos é a aplicação de conhecimentos, habilidades, ferr
 
 ### 3.1 Importância
 Fornece um quadro de referência comum para os gerentes de projeto navegarem pelos desafios complexos dos projetos  modernos. Além disso, muitas organizações exigem que seus gerentes de projeto sejam proficientes no PMBOK.
+
+---
 
 ## 4. Iniciação
 ### 4.1 Project Charter
@@ -80,6 +88,8 @@ Os **Stakeholders** são todas as partes que impactam ou que são impactadas pel
 - Externos ->  Clientes, fornecedores, governo, comunidades locais e concorrentes que influenciam ou sofrem impacto indireto.
 - Primários -> Têm influência direta nos resultados financeiros ou operacionais do negócio.
 - Secundários -> Têm interesse indireto, como mídia ou associações comerciais.
+
+---
 
 ## 5. Planejamento
 ### 5.1. Gerenciamento de Escopo

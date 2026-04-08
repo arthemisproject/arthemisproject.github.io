@@ -7,16 +7,19 @@ layout: default
 ## Sumário
 
 1. [Banco de dados](#1-banco-de-dados-bd)
-- [Modelos de Dados](#11-modelos-de-dados) 
-- [Estrutura](#12-estrutura)
-- [Arquiteturas](#13-arquiteturas)
+- 1.1 [Modelos de Dados](#11-modelos-de-dados) 
+- 1.2 [Estrutura](#12-estrutura)
+- 1.3 [Arquiteturas](#13-arquiteturas)
 2. [Sistemas de gerenciamento de banco de dados](#2-sistema-de-gerenciamento-de-banco-de-dados-sgbd)
-- [Visão geral](#21-visão-geral-dos-principais-sgbds)
-- [Linguagens](#22-linguagens)
+- 2.1 [Visão geral](#21-visão-geral-dos-principais-sgbds)
+- 2.2 [Linguagens](#22-linguagens)
 3. [MySQL](#3-mysql)
-- [Principais operações em SQL](#31-principais-operações-em-sql)
-- [Filtros e operadores](#32-filtros-e-operadores)
-- [Relacionamentos](#33-relacionamentos)
+- 3.1 [Principais operações em SQL](#31-principais-operações-em-sql)
+- 3.2 [Filtros e operadores](#32-filtros-e-operadores)
+- 3.3 [Relacionamentos](#33-relacionamentos)
+- 3.4 [Normalização](#34-normalização)
+
+---
 
 ## 1. Banco de Dados (BD)
 
@@ -36,25 +39,27 @@ Sua importância está relacionada à facilidade de organização das informaç�
 
 É um modelo de dados que organiza as informações em **tabelas** (relações). Os principais elementos onde as informações são armazenadas são:
 
-- **Tabelas** ~> Estrutura que armazena os dados
-- **Linhas (registros)** ~> Cada linha representa um registro da tabela
-- **Colunas (atributos)** ~> Cada coluna representa uma característica do dado
+- **Tabelas** -> Estrutura que armazena os dados
+- **Linhas (registros)** -> Cada linha representa um registro da tabela
+- **Colunas (atributos)** -> Cada coluna representa uma característica do dado
 
 A estrutura de um banco de dados relacional inclui:
 
-- **Chave primária (Primary Key)**  ~> Coluna ou conjunto de colunas que identifica de forma única cada registro em uma tabela.
-- **Chave estrangeira (Foreign Key)**  ~> Coluna que cria uma relação entre duas tabelas diferentes, referenciando a chave primária de outra tabela.
-- **Índice (Index)** ~> Estrutura utilizada para melhorar a velocidade das consultas realizadas na tabela.
+- **Chave primária (Primary Key)**  -> Coluna ou conjunto de colunas que identifica de forma única cada registro em uma tabela.
+- **Chave estrangeira (Foreign Key)**  -> Coluna que cria uma relação entre duas tabelas diferentes, referenciando a chave primária de outra tabela.
+- **Índice (Index)** -> Estrutura utilizada para melhorar a velocidade das consultas realizadas na tabela.
 
 ### 1.2 Estrutura
 
-- **Esquema (Schema)** ~> É a estrutura lógica de um banco de dados que define como os dados são organizados e como eles se relacionam.
+- **Esquema (Schema)** -> É a estrutura lógica de um banco de dados que define como os dados são organizados e como eles se relacionam.
 
 ### 1.3 Arquiteturas
 
-1. **Monolítica** ~> Todos os dados e serviços estão centralizados em um único sistema.
-2. **Cliente-Servidor** ~> Os dados ficam armazenados em servidores e são acessados por aplicações clientes.
-3. **Distribuída** ~> Os dados são armazenados em múltiplos sistemas interconectados.
+1. **Monolítica** -> Todos os dados e serviços estão centralizados em um único sistema.
+2. **Cliente-Servidor** -> Os dados ficam armazenados em servidores e são acessados por aplicações clientes.
+3. **Distribuída** -> Os dados são armazenados em múltiplos sistemas interconectados.
+
+---
 
 ## 2. Sistema de Gerenciamento de Banco de Dados (SGBD)
 
@@ -85,14 +90,14 @@ Alguns dos SGBDs mais populares são:
 
 As principais linguagens utilizadas em bancos de dados são:
 
-- **DDL (Data Definition Language)**  ~> Utilizada para criar e modificar a estrutura do banco de dados.
+- **DDL (Data Definition Language)**  -> Utilizada para criar e modificar a estrutura do banco de dados.
   
   **Exemplos:**
   - CREATE
   - ALTER
   - DROP
 
-- **DML (Data Manipulation Language)** ~> Utilizada para manipular os dados armazenados. 
+- **DML (Data Manipulation Language)** -> Utilizada para manipular os dados armazenados. 
   
     **Exemplos:**
     - INSERT
@@ -100,9 +105,11 @@ As principais linguagens utilizadas em bancos de dados são:
     - DELETE
     - SELECT
 
+---
+
 ## 3. MySQL
 
-- **MySQL Workbench** ~> Ferramenta gráfica (GUI) utilizada para modelagem de banco de dados, desenvolvimento de consultas SQL e administração de servidores.
+- **MySQL Workbench** -> Ferramenta gráfica (GUI) utilizada para modelagem de banco de dados, desenvolvimento de consultas SQL e administração de servidores.
 
 ### 3.1 Principais operações em SQL
 
@@ -127,6 +134,8 @@ SELECT * FROM usuarios WHERE idade > 18 AND nome = 'Miguel';
 ```sql
 SELECT * FROM usuarios WHERE nome LIKE 'M%';
 ```
+
+---
 
 ### 3.3 Relacionamentos
 
@@ -271,6 +280,8 @@ LEFT JOIN pedidos ON usuarios.id = pedidos.usuario_id;
 ```
 Retorna todos os usuários, mesmo sem pedidos
 
+---
+
 ### 3.4 Normalização (conceito essencial)
 Normalizar é organizar os dados para evitar repetição e inconsistência.
 
@@ -291,3 +302,7 @@ Melhor:
 - tabela alunos
 - tabela cursos
 - tabela relacionamento
+
+----
+
+🦉 *Este material faz parte do projeto Arthemis, com foco em aprendizado colaborativo para alunos do Senac.*

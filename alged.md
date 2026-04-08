@@ -7,19 +7,19 @@ layout: default
 ## Sumário
 
 1. [Algoritmo](#1-algoritmo)
-- [Definição](#1-algoritmo)
-- [Representações](#12-representações-de-um-algoritmo)
+- 1.1 [Definição](#1-algoritmo)
+- 1.2 [Representações](#12-representações-de-um-algoritmo)
 2. [Dados](#2-dados)
-- [Tipos Primitivos](#21-tipos-primitivos)
-- [Variáveis e Constantes](#22-variáveis-e-constantes)
+- 2.1 [Tipos Primitivos](#21-tipos-primitivos)
+- 2.2 [Variáveis e Constantes](#22-variáveis-e-constantes)
 3. [Estruturas de Controle](#3-estruturas-de-controle-e-repetição)
-- [Estruturas de decisão](#31-estruturas-de-decisão)
-  - [If](#if--else)
-  - [Switch](#switch)
-- [Estruturas de repetição](#32-estruturas-de-repetição)
-  - [For](#for)
-  - [While](#while)
-  - [Do While](#do-while)
+- 3.1 [Estruturas de decisão](#31-estruturas-de-decisão)
+  - 3.1.1 [If](#if--else)
+  - 3.1.2 [Switch](#switch)
+- 3.2 [Estruturas de repetição](#32-estruturas-de-repetição)
+  - 3.2.1 [For](#for)
+  - 3.2.2 [While](#while)
+  - 3.2.3 [Do While](#do-while)
 
 ## 1. Algoritmo
 
